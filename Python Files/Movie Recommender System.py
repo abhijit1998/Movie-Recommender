@@ -40,4 +40,6 @@ def recommend(moviename):
     else:
         print('Movie not found')
         
-recommend('xXx: State of the Union')
+m=input("Enter the name of the movie: ")
+print("Recommended Movies are: ")
+recommend(m)
